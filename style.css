@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Parkinsans", sans-serif;
+}
+
+.container-galery {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid blue;
+    height: 100vh;
+    padding: 8px 15px;
+}
+
+.container-galery i {
+    margin: 5px;
+}
+
+.content-galery {
+    border: 2px solid red;
+    height: 90vh;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 8px;
+}
+
+.img-galery {
+    border: 2px solid black;
+    height: 275px;
+}
